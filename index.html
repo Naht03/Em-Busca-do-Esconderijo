@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Sevillana&display=swap" rel="stylesheet">
+    <title>Em Busca do Esconderijo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Você é uma jovem que ama ler e acabou de se mudar para a mansão de sua vó falecida. Dando uma olhada na biblioteca você descobre um livro sobre um lugar misterioso escondido na mansão junto com pistas que sua avó deixara.</p>
+             <button class="btn-proximo" data-proximo="1">Aceitar aventura</button>
+             <button class="btn-proximo" data-proximo="2">Não aceitar e decide estudar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você olha a primeira pista e observa que há uma imagem de um globo.</p>
+             <button class="btn-proximo" data-proximo="3">Você procura o globo antigo que está na biblioteca</button>
+             <button class="btn-proximo" data-proximo="4">Você decide ir estudar para a prova de amanhã e desiste</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Estudando você percebe que há algo de errado com o globo que você está usando para estudar.</p>
+             <button class="btn-proximo" data-proximo="5">Você decide abri-lo</button>
+             <button class="btn-proximo" data-proximo="6">Você ignora e continua estudando</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você escuta um barulho e encontra uma carta dizendo: “Eu amo meu jardim e sempre cuido dele, principalmente das rosas que ficam perto da porta principal.” </p>
+             <button class="btn-proximo" data-proximo="7">Vá para o jardim</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg" alt="">
+            <p>Você fica estudando para a prova e não pensa mais nas pistas</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Dentro do globo há uma carta dizendo: “Eu amo meu jardim e sempre cuido dele, principalmente das rosas que ficam perto da porta principal.” </p>
+             <button class="btn-proximo" data-proximo="7">Você decide abri-lo</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você não consegue ignorar o barulho e resolve abrir para saber o que tem dentro.</p>
+             <button class="btn-proximo" data-proximo="8">Abrir o globo</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Neste jardim você encontra duas rosas, a rosa vermelha e a rosa branca.</p>
+            <button class="btn-proximo" data-proximo="9">Escolher rosa vermelha</button>
+            <button class="btn-proximo" data-proximo="10">Escolher rosa branca</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Encontra uma carta que sua vó escrevera e indicando que a próxima pista está no jardim de rosas perto da porta principal da casa.</p>
+             <button class="btn-proximo" data-proximo="7">Vá para o jardim</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você pega a rosa vermelha e então percebe que ela não sai do lugar, então ao emburra-la uma passagem se abre embaixo de você.</p>
+             <button class="btn-proximo" data-proximo="11">Entrar na passagem</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você pega a rosa branca e nada acontece, então você decide pegar a rosa vermelha.</p>
+             <button class="btn-proximo" data-proximo="12">Pegar rosa vermelha</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.jpg" alt="">
+            <p>Você entra e descobre um lugar lindo e cheio de coisas para se divertir. Era o lugar que sua vó usava para se distrair quando pequena e ela o deixa para você com uma carta dizendo: 
+                “Querida neta, sei que tem se ocupado muito com os estudos, mas conheço minha aventureira e não podia deixar de compartilhar meu lugar favorito com você, espero que teha se divertido e se divirta mais ainda com este lugar maravilhoso.
+                Com carinho, vovó.”</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Você pega a rosa vermelha e então percebe que ela não sai do lugar, então ao emburra-la uma passagem se abre embaixo de você.</p>
+             <button class="btn-proximo" data-proximo="11">Entrar na passagem</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(109, 79, 54, 0.863);
+    color: white;
+    font-family: "Playwrite CU", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgba(189, 146, 108, 0.863);
+    color: white;
+    font-family: "Playwrite CU", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 50%;
+}
+
+img {
+    max-width: 60%;
+}
